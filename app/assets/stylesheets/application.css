@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+ht,h2,h3 {
+    font-family: "Roboto", sans-serif;
+}
