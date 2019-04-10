@@ -21,7 +21,7 @@ ht,h2,h3 {
     font-family: PT Sans Narrow, sans-serif;
 }
 
-.navbar, .home-callout { 
+.navbar, .home-callout, .about-callout { 
   background: #FFEFBA;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -29,9 +29,27 @@ ht,h2,h3 {
 .navbar { 
   border: none;
   }
-  .home-callout {
+.home-callout {
     color:grey;
     margin-top: -20px;
     padding-top: 30px;
     padding-bottom: 10px;
   }
+.about-callout {
+    color:grey;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+.navbar-default .navbar-brand { 
+    color:grey;
+  }
+.navbar-default .navbar-nav {
+    color:grey;
+  } 
+.navbar-default .navbar-brand:hover { 
+    color: black;
+  }
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+}
