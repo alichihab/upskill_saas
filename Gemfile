@@ -56,6 +56,8 @@ group :development do
 end
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
+# Use herb for better database table display in console
+gem 'hirb', '0.7.3'
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
