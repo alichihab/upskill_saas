@@ -1,3 +1,3 @@
-class contact < ActiverECORD::Base
+class Contact < ActiverECORD::Base
     
 end
