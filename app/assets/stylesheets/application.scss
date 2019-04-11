@@ -25,7 +25,7 @@ ht,h2,h3 {
   background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    }
-.navbar { 
+.navbar .nav > li > a { 
   border: none;
   }
   
@@ -39,7 +39,7 @@ ht,h2,h3 {
 
 // Nav styles 
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav  { 
+.navbar-default .navbar-brand, .navbar-default, .nav > li > a { 
     color:grey;
     &:hover { 
       color:black;
@@ -49,11 +49,11 @@ ht,h2,h3 {
   font-family: "open sans", "sans-serif";
   font-weight: 800;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar .nav > li > a  {
   background: white;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle, .nav > li > a  {
   border: 2px solid white;
   &:hover, &:focus {
     background-color: #FFEFBA;
